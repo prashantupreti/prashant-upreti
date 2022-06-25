@@ -7,17 +7,17 @@
       subtitle=""
     />
     <Section class="text-center">
-      <h2 class="mt-2 text-3xl md:text-4xl ">
+      <h2 class="mt-2 text-xl font-semibold md:text-4xl ">
         <i class="fas fa-certificate"></i> Bachelor of Science in Computer
         Engineering
       </h2>
-      <h3 class="mt-2 text-2xl">
+      <h3 class="mt-2 text-lg md:text-2xl">
         Minor in Mathematics and Computer Science
       </h3>
-      <h4 class="mt-2 text-2xl font-semibold">
+      <h4 class="mt-2 text-md md:text-2xl font-semibold">
         <i class="fa-solid fa-building-columns"></i> Texas Tech University
       </h4>
-      <p class="mt-2 text-1xl">
+      <p class="mt-2 text-md md:text-1xl">
         <i class="fa-solid fa-graduation-cap"></i> August 2022 &middot;
         <i class="fa-solid fa-trophy "></i> GPA: 3.5
       </p>

@@ -21,7 +21,7 @@
     </div>
     <div class="container mx-auto px-4">
       <div class="items-center flex flex-wrap">
-        <div class="w-full lg:w-8/12 ml-auto mr-auto px-4">
+        <div class="w-full lg:w-9/12 ml-auto mr-auto px-4">
           <slot></slot>
         </div>
       </div>
