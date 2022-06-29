@@ -33,7 +33,8 @@
             type="button"
             v-on:click="toggleNavbar()"
           >
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars" v-show="!showMenu"></i>
+            <i class="fa-solid fa-xmark" v-show="showMenu"></i>
           </button>
         </div>
         <div
@@ -41,7 +42,7 @@
           class="lg:flex lg:flex-grow items-center"
         >
           <ul class="flex flex-col lg:flex-row list-none ml-auto">
-            <li class="nav-item lg:border-r">
+            <li class="nav-item lg:border-r" v-on:click="toggleNavbar()">
               <NuxtLink
                 class="px-3 py-2 flex items-center text-md  font-bold leading-snug text-dark dark:text-white hover:opacity-75"
                 to="/about"
@@ -51,7 +52,7 @@
                 /><span class="ml-2">About Me</span>
               </NuxtLink>
             </li>
-            <li class="nav-item lg:border-r">
+            <li class="nav-item lg:border-r" v-on:click="toggleNavbar()">
               <NuxtLink
                 class="px-3 py-2 flex items-center text-md  font-bold leading-snug text-dark dark:text-white hover:opacity-75"
                 to="/education"
@@ -61,7 +62,7 @@
                 /><span class="ml-2">Education</span>
               </NuxtLink>
             </li>
-            <li class="nav-item lg:border-r">
+            <li class="nav-item lg:border-r" v-on:click="toggleNavbar()">
               <NuxtLink
                 class="px-3 py-2 flex items-center text-md  font-bold leading-snug text-dark dark:text-white hover:opacity-75"
                 to="/experience"
@@ -71,7 +72,7 @@
                 /><span class="ml-2">Experience</span>
               </NuxtLink>
             </li>
-            <li class="nav-item lg:border-r">
+            <li class="nav-item lg:border-r" v-on:click="toggleNavbar()">
               <NuxtLink
                 class="px-3 py-2 flex items-center text-md  font-bold leading-snug text-dark dark:text-white hover:opacity-75"
                 to="/skills"
@@ -81,7 +82,7 @@
                 /><span class="ml-2">Skills</span>
               </NuxtLink>
             </li>
-            <li class="nav-item lg:border-r">
+            <li class="nav-item lg:border-r" v-on:click="toggleNavbar()">
               <NuxtLink
                 class="px-3 py-2 flex items-center text-md  font-bold leading-snug text-dark dark:text-white hover:opacity-75"
                 to="/scholarships"
@@ -91,7 +92,7 @@
                 /><span class="ml-2">Scholarships</span>
               </NuxtLink>
             </li>
-            <li class="nav-item lg:border-r">
+            <li class="nav-item lg:border-r" v-on:click="toggleNavbar()">
               <NuxtLink
                 class="px-3 py-2 flex items-center text-md  font-bold leading-snug text-dark dark:text-white hover:opacity-75"
                 to="/languages"
