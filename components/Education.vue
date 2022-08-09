@@ -19,7 +19,7 @@
       </h4>
       <p class="mt-2 text-md md:text-1xl">
         <i class="fa-solid fa-graduation-cap"></i> August 2022 &middot;
-        <i class="fa-solid fa-trophy "></i> GPA: 3.5
+        <i class="fa-solid fa-trophy "></i> GPA: 3.6
       </p>
     </Section>
   </div>
