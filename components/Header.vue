@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-    <div
+    <!-- <div
       class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
       style="height: 70px;"
     >
@@ -50,7 +50,7 @@
           points="2560 0 2560 100 0 100"
         ></polygon>
       </svg>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>

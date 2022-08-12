@@ -1,6 +1,6 @@
 <template>
-  <footer class="relative bg-gray-800 dark:bg-white pt-8 pb-6">
-    <div
+  <footer class="relative bg-white dark:bg-gray-800 pt-8 pb-6">
+    <!-- <div
       class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
       style="height: 80px;"
     >
@@ -18,13 +18,13 @@
           points="2560 0 2560 100 0 100"
         ></polygon>
       </svg>
-    </div>
+    </div> -->
     <div class="container mx-auto px-4">      
       <div
         class="flex flex-wrap items-center md:justify-between justify-center"
       >
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-          <div class="text-sm text-white dark:text-black font-semibold py-1">
+          <div class="text-sm text-black dark:text-white font-semibold py-1">
             Copyright &copy; {{date}} &middot; <NuxtLink to="/" class="hover:underline">Prashant Upreti</NuxtLink> &middot; All Rights Reserved
           </div>
         </div>

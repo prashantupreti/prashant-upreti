@@ -120,12 +120,13 @@
                 href="https://www.linkedin.com/in/prashant-upreti"
                 target="_blank"
               >
-                <i
-                  class="fa-brands fa-linkedin text-lg leading-lg opacity-75"
-                /><span class="ml-2 mr-2">LinkedIn</span>
+                <span class="ml-2 mr-2"
+                  >Linked <i
+                    class="fa-brands fa-linkedin text-lg leading-lg opacity-75"
+                /></span>
                 <i class="fa fa-external-link" aria-hidden="true"></i>
               </a>
-            </li>            
+            </li>
             <li class="nav-item lg:border-r">
               <a
                 class="px-3 py-2 flex items-center text-md  font-bold leading-snug text-blue-600 hover:opacity-75"
