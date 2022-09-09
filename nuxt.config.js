@@ -8,7 +8,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'I am Prashant Upreti, a August 2022 graduate with BS in Computer Engineering from Texas Tech University, actively searching for a job.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [

@@ -26,7 +26,7 @@ export default {
   data () {
     return {
       image: img,
-      languages: ['English', 'Nepali', 'Hindi']
+      languages: ['English (Fluent)', 'Nepali (Native)', 'Hindi (Fluent)']
     }
   },
   head: {

@@ -1,6 +1,6 @@
 <template>
   <Section>
-    <div class="grid md:grid-cols-2">
+    <div class="grid md:grid-cols-3">
       <div :class="img_order" class="ml-auto mr-auto">
         <img
           :alt="exp_title"
@@ -8,7 +8,7 @@
           :src="exp_media"
         />
       </div>
-      <div :class="detail_order" class="mt-4 md:mt-0">
+      <div :class="detail_order" class="mt-4 md:mt-0 col-span-2">
         <div class="md:pr-12">
           <div class="flex">
             <div

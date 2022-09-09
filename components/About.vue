@@ -8,10 +8,9 @@
     />
     <Section class="text-xl md:text-lg leading-relaxed text-justify">
       <p class="py-4">
-        <span class="text-6xl">W</span>elcome to my portfolio site. I am Prashant Upreti, a student of BS in
-        Computer Engineering at Texas Tech University graduating this August
-        2022. I have learned a lot of programming languages during my academic
-        career here at Texas Tech but also have been learning more on the side
+        <span class="text-6xl">W</span>elcome to my portfolio site. I am Prashant Upreti, a August '22 graduate with BS in
+        Computer Engineering from Texas Tech University, actively searching for a job. I have learned a lot of programming languages during my academic
+        career at Texas Tech but also have been learning more on the side
         along my coursework.
       </p>
       <p class="py-4">

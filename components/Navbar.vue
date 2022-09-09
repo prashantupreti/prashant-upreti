@@ -164,7 +164,7 @@
 <style scoped>
 a.nuxt-link-active,
 a.nuxt-link-exact-active {
-  text-decoration: underline;
+  text-decoration: underline overline;
 }
 </style>
 <script>
